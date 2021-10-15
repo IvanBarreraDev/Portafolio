@@ -1,0 +1,66 @@
+@import url(footer.css);
+body{
+    background-color: black;
+}
+.cont-contacto{
+    margin-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    h1{
+        color: white;
+        padding: 2rem;
+        border-bottom: 4px solid green;
+        margin-bottom: 5%;
+    }
+    .Error{
+        padding: 0.5rem 1rem;
+        color: white;
+        margin-bottom: 2rem;
+        display: none;
+    }
+        .Error i{
+            color: orange;
+        }
+    .form-contacto{
+        width: 40%;
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 8px white;
+    }
+    input,textarea{
+        width: 100%;
+        margin-bottom: 4%;
+        outline: none;
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 2%;
+        color: white;
+    }
+    textarea{
+        height: 6rem;
+        margin-bottom: 9%;
+    }
+    ::placeholder{
+        color: white;
+    }
+    button{
+        margin: 0;
+        border-radius: 15px;
+        width: 30%;
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 2%;
+    }
+    button:hover{
+        border-color: green;
+    }
